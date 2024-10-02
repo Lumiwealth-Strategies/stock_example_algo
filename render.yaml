@@ -1,29 +1,19 @@
 services:
   - type: worker
-    name: congress-follower
+    name: stock-example-algo
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python src/main.py
     autoDeploy: false  # Prevents automatic redeploy on GitHub changes
     envVars:
-      - key: TRADIER_ACCESS_TOKEN
+      - key: ALPACA_API_KEY
         value: ""
-      - key: TRADIER_ACCOUNT_NUMBER
+      - key: ALPACA_API_SECRET
         value: ""
-      - key: TRADIER_USERNAME
-        value: "Optional, only for remembering the username"
       - key: LIVE_CONFIG
         value: ""
-      - key: TRADIER_IS_PAPER
+      - key: ALPACA_IS_PAPER
         value: "True"
-      - key: IS_BACKTESTING
-        value: "False"
-      - key: POLYGON_API_KEY
-        value: ""
-      - key: DISCORD_WEBHOOK_URL
-        value: ""
-      - key: DB_CONNECTION_STR
-        value: ""
       - key: STRATEGY_NAME
         # This should be the name of the strategy + the live config name
-        value: "CongressFollower"
+        value: "StockExampleAlgo"
