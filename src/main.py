@@ -49,8 +49,8 @@ class StockExampleAlgo(Strategy):
             # Get the cash available
             cash = self.get_cash()
 
-            # Calculate the cash per asset
-            cash_per_asset = cash / len(symbols)
+            # Calculate the cash per asset (only use 98% of cash)
+            cash_per_asset = (cash * 0.98) / len(symbols)
 
             # Loop through the symbols
             for symbol in symbols:
