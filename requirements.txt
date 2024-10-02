@@ -1,0 +1,3 @@
+lumibot>=3.7.6
+pandas_ta
+yfinance
