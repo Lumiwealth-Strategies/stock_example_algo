@@ -29,9 +29,9 @@ To run this strategy on Replit or Render, click on the buttons below. This will 
  
 ### TIP: Right click on the button and open it in a new tab so that you can see the instructions while you are setting up the strategy (otherwise you will have to press the back button to see the instructions again).
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Lumiwealth-Strategies/congress_follower)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Lumiwealth-Strategies/stock_example_algo)
 
-[![Run on Repl.it](https://replit.com/badge/github/Lumiwealth-Strategies/congress_follower)](https://replit.com/new/github/Lumiwealth-Strategies/congress_follower)
+[![Run on Repl.it](https://replit.com/badge/github/Lumiwealth-Strategies/stock_example_algo)](https://replit.com/new/github/Lumiwealth-Strategies/stock_example_algo)
 
 # How to Run the Strategy
 
