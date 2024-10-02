@@ -14,6 +14,8 @@ services:
         value: ""
       - key: ALPACA_IS_PAPER
         value: "True"
+      - key: MARKET
+        value: "24/7"
       - key: STRATEGY_NAME
         # This should be the name of the strategy + the live config name
         value: "StockExampleAlgo"
