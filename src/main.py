@@ -21,6 +21,10 @@ BACKTESTING_END = datetime(2024, 10, 1)
 """
 Strategy Description
 
+This strategy is an example of a stock trading strategy. It splits the cash available equally between the stocks in the symbols list
+right at the start of the strategy and holds the stocks indefinitely. This is a simple strategy that is used to demonstrate
+how to create a stock trading strategy in Lumibot.
+
 
 """
 

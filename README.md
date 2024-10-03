@@ -20,8 +20,9 @@ By using this strategy and code, you acknowledge and agree to the terms outlined
 
 # Strategy Description
 
-This strategy follows the trades of members of Congress. It downloads the trading data from the QuiverQuant API and rebalances the portfolio based on the trades of the Congress members. 
-The strategy calculates the drift of the portfolio and rebalances it if the drift is greater than a certain threshold.
+This strategy is an example of a stock trading strategy. It splits the cash available equally between the stocks in the symbols list
+right at the start of the strategy and holds the stocks indefinitely. This is a simple strategy that is used to demonstrate
+how to create a stock trading strategy in Lumibot.
 
 # Getting Started
 
